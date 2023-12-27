@@ -1,0 +1,38 @@
+/* Login.css */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.card {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Optional: Add some custom styling for a clean and modern look */
+.card {
+  border-radius: 10px;
+}
+
+/* Add spacing between form elements */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-link {
+  color: #007bff;
+}
